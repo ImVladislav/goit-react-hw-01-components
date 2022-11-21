@@ -30,6 +30,7 @@ export const Table = ({
   );
 };
 
+
 Table.propTypes = {
   typeTitle: PropTypes.string.isRequired,
   amountTitle: PropTypes.string.isRequired,
