@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import { StyledFriend } from './FriendItem.styled';
-import { FriendDescription } from './FriendsDesc/FriendsDesc';
+import { StyledFriend } from './Friend.styled';
+import { FriendDescription } from '../FriendsDesc/FriendsDesc';
 
 export const Friend = ({ friends }) => {
     return(
         <StyledFriend>
-            FriendDescription friends={friends}
+            <FriendDescription friends={friends}/>
 </StyledFriend>
 
     );

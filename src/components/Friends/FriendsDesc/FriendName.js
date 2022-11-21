@@ -1,4 +1,4 @@
-import { FriendName } from './FriendDescr.styled';
+import { FriendName } from './FriendsDesc.styled';
 
 export const Friend = ({ friends }) => {
   return <FriendName>{friends.name}</FriendName>;

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Status, Avatar } from './FriendDesc.styled';
+import { Status, Avatar } from './FriendsDesc.styled';
 import { Friend } from './FriendName';
 
 export const FriendDescription = ({ friends }) => {
