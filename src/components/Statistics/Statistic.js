@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Title, List } from './index';
 
-export const Statistic = ({ stats, title = null}) => {
+export const Statistic = ({ stats, title}) => {
   return (
     <Box
       as="section"
@@ -12,7 +12,7 @@ export const Statistic = ({ stats, title = null}) => {
       textAlign="center"
       boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
     >
-      <Title title={title} />
+      <Title title={ title? title: null } />
       
       <List stats={stats} />
     </Box>
