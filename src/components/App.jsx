@@ -17,7 +17,7 @@ export const App = () => {
     <>
       <ThemeProvider theme={theme}>
         <Profile user={user} />
-        <Statistic stats={data} title="Upload stats" />
+        <Statistic stats={data} />
         <Friends friends={friends} />
         <Table
           transactions={transactions}
